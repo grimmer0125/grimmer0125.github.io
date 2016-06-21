@@ -1,3 +1,5 @@
+---
+---
 ## Docker:
 * 1."docker-machine create" or "docker-machine ls; docker-machine start", 2. docker-machine env default 3. eval "$(docker-machine env default)"  https://docs.docker.com/engine/installation/mac/
 * docker-machine ip default.  <-get docker ip.
@@ -7,7 +9,7 @@
 * docker rm containerid
 * docker rmi image
 
-p.s. 
+p.s.
 sometimes need do  
 a. remove all containers/images  
 https://forums.meteor.com/t/aws-opsworks-meteor-docker-deployment/1937/82 and  
@@ -17,7 +19,7 @@ https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers
 
 1. docker stop $(docker ps -a -q)
 2. docker rm $(docker ps -a -q)
-3. docker rmi -f `docker images -aq` 
+3. docker rmi -f `docker images -aq`
 
 
 ##Docker-compose:
