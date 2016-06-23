@@ -11,3 +11,6 @@ main:
 
   - title: "Sample Collections"
     url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+
+  - title: "Tags"
+    url: /tags/
