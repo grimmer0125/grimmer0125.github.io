@@ -1,4 +1,6 @@
 ---
+tags:
+  - docker
 ---
 ## Docker:
 * 1."docker-machine create" or "docker-machine ls; docker-machine start", 2. docker-machine env default 3. eval "$(docker-machine env default)"  https://docs.docker.com/engine/installation/mac/
