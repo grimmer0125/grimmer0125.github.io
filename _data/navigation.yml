@@ -3,14 +3,5 @@ main:
   - title: "CV"
     url: http://cv0.grimmer.io/
 
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
-
   - title: "Tags"
     url: /tags/
