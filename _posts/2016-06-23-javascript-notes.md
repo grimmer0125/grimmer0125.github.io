@@ -1,17 +1,27 @@
-重點
+---
+---
+
+### Notes:
+
+
 1. everything is object, function also.
 2. scope (es5: function scope, es6: let->block scope)
-3. closure
-4. this, call, apply
-5. 全域變數其實就是全域物件的屬性。瀏覽器：window物件、node.js：GLOBAL物件)
+3. this, call, apply -> closure
+4. 全域變數其實就是全域物件的屬性。瀏覽器：window物件、node.js：GLOBAL物件)
    例外：在使用node.js時，若使用node file.js這樣的方式執行js檔，並不會讓宣告的全域變數掛在全域物件上(意指會利用function將code整個包起來執行)，故輸出應為undefined。
 
+---
 
-tips:
+### tips:
+
+
 可以直接印 console('test:', testobj)
---
 
-http://www.w3schools.com/js/js_arrays.asp
+---
+
+### Gool references:
+
+http://www.w3schools.com/js/js_arrays.asp  
 JavaScript does not support arrays with named indexes.
 ->可能會誤解, 至少 JavaScript Object 就看起來等於是named indexed了. http://www.vixual.net/blog/archives/31
 
@@ -22,9 +32,10 @@ How do you check if a variable is an array in JavaScript?
 http://stackoverflow.com/questions/767486/how-do-you-check-if-a-variable-is-an-array-in-javascript
 
 How to check for “undefined” in JavaScript? [duplicate]
-http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript
-p.s. if(aa.bb) ->bb is undefined , will not throw exceptions
-but if (aa) ->aa is undefined, will throw exceptions. 
+http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript  
+if (aa.bb) ->bb is undefined , will not throw exceptions
+but  
+if (aa) ->aa is undefined, will throw exceptions. 
 
 JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 http://www.w3schools.com/js/js_hoisting.asp
@@ -42,12 +53,12 @@ multi thread ?
 JavaScript 物件導向介紹
 https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9
 
-物件的使用
+物件的使用  
 https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
-物件的member function 
+物件(es5)的member function 
 1. Person.prototype.sayHello = function() ->non static method
 2. function Person (){
 	this.testFun = function{
@@ -60,8 +71,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
   	}
   }
-4. static, has no relationship with an object instance of that constructor function
-http://ithelp.ithome.com.tw/question/10128721
+4. static, has no relationship with an object instance of that constructor function  
+http://ithelp.ithome.com.tw/question/10128721  
 Class.method = function ()
 
 function expressions/Function declaration, 
@@ -69,14 +80,13 @@ function expressions/Function declaration,
 http://blogger.gtwang.org/2014/04/defining-javascript-functions.html
 2. 
 http://stackoverflow.com/questions/16439949/define-local-function-in-javascript-use-var-or-not
-3.
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions  
  Thus, unlike those defined by function expressions, functions defined by function declarations can be accessed by their name in the scope they were defined in:
 
-es5 singleton
+es5 singleton  
 http://stackoverflow.com/questions/1479319/simplest-cleanest-way-to-implement-singleton-in-javascript/1479341#1479341
 
-簡單理解 JavaScript 的記憶體管理機制
+簡單理解 JavaScript 的記憶體管理機制  
 http://fred-zone.blogspot.tw/2012/05/javascript_22.html
 
 JavaScript Scope
@@ -129,18 +139,18 @@ http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/
 es6, Arror function 
 1. https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
-ES6 Preview
-http://weichienhung.github.io/blog/2014/03/12/es6-preview/
-arrows
-classes
-template strings
-destructuring
-default + rest + spread
-let + const
-iterators + for..of mmm
-modules
-module loaders
-promises
+ES6 Preview  
+http://weichienhung.github.io/blog/2014/03/12/es6-preview/  
+* arrows
+* classes
+* template strings
+* destructuring
+* default + rest + spread
+* let + const
+* iterators + for..of mmm
+* modules
+* module loaders
+* promises
 
 es6 features
 https://github.com/lukehoban/es6features
@@ -154,35 +164,38 @@ class MainPage extends React.Component {
   }
 }
 
---
+---
+
 es7 (draft)
 http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators
 
-es7, spreading operator 
-{...a, ...b} 
---
+es7, spreading operator (not [...])
+```{...a, ...b}```
+
+---
+
 some test examples:
-1.
+1.  
     if(true)
     {
 
-      var testlocal = "123";
-    }
+      var testlocal = "123";  
+    }  
 	接著印 testlocal 有值
 
 2. 
-function func2() {
-    var L = 'local';
-    G = 'global';
-}
+```function func2() {   
+    var L = 'local';  
+    G = 'global';  
+}```
 沒有call的話都沒值
 但如果有call func2
 則G有值!!!!!! ->會變成最上層的window function/object下面 或是node object 這個下面(如果是在node.js裡跑)
 
+---
 
---
-特殊 case 1
-var a = 1;
+特殊 case 1  
+```var a = 1;
 
 (function(){
   console.log(a);    //  ? -> undefined 
@@ -190,15 +203,15 @@ var a = 1;
   var a = 100;
   console.log(a);    // 100
 
-})();
+})();```
 
 因為在匿名函數獨立的 scope 內，不管 var 是放在最前面，或是最後一行，他的變數實體在該 code block 一開始就是新的了，也就是說，剛剛的 code 其實等同下面這段：
 
-(function(){
+```(function(){
   var a;
   console.log(a);  
   ..
-})();
+})();```
 --
 
 Why does the value of typeof null change inside a loop? V8 engine bug. 
