@@ -1,5 +1,4 @@
 ---
-published: false
 ---
 
 ### Notes:
@@ -36,7 +35,7 @@ How to check for “undefined” in JavaScript? [duplicate]
 [http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript](http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript)
 if (aa.bb) ->bb is undefined , will not throw exceptions
 but  
-if (aa) ->aa is undefined, will throw exceptions. 
+if (aa) ->aa is undefined, will throw exceptions.
 
 JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 [http://www.w3schools.com/js/js_hoisting.asp](http://www.w3schools.com/js/js_hoisting.asp)
@@ -47,7 +46,7 @@ JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 module pattern
 [https://carldanley.com/js-module-pattern/](https://carldanley.com/js-module-pattern/) !!!!!!
 
-multi thread ? 
+multi thread ?
 1. [http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F](http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F)
 2. [https://www.ptt.cc/bbs/Ajax/M.1320492552.A.2F1.html](https://www.ptt.cc/bbs/Ajax/M.1320492552.A.2F1.html)
 
@@ -59,15 +58,15 @@ JavaScript 物件導向介紹
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
-物件(es5)的member function 
+物件(es5)的member function
 1. Person.prototype.sayHello = function() ->non static method
-2. 
+2.
 ```function Person (){
 	this.testFun = function{
 
-	} 
+	}
 }```
-3. 
+3.
 ```var myObj = {
   	myMethod: function(params) {
     	// ...do something
@@ -75,16 +74,16 @@ JavaScript 物件導向介紹
   	}
   }```
 4. static, has no relationship with an object instance of that constructor function  
-[http://ithelp.ithome.com.tw/question/10128721](http://ithelp.ithome.com.tw/question/10128721) 
+[http://ithelp.ithome.com.tw/question/10128721](http://ithelp.ithome.com.tw/question/10128721)
 Class.method = function ()
 
-function expressions/Function declaration, 
-1. 
+function expressions/Function declaration,
+1.
 定義 JavaScript 函數（Functions）的各種方式 (非指member function)
 [http://blogger.gtwang.org/2014/04/defining-javascript-functions.html](http://blogger.gtwang.org/2014/04/defining-javascript-functions.html)  
-2. 
+2.
 [http://stackoverflow.com/questions/16439949/define-local-function-in-javascript-use-var-or-not](http://stackoverflow.com/questions/16439949/define-local-function-in-javascript-use-var-or-not)
-3. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) 
+3. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
  Thus, unlike those defined by function expressions, functions defined by function declarations can be accessed by their name in the scope they were defined in:
 
 es5 singleton  
@@ -126,7 +125,7 @@ this, Javascript：this用法整理, 超重要 mmmmmm
 [http://crazyalu-blog.logdown.com/posts/209938--javascriptthis-use-finishing](http://crazyalu-blog.logdown.com/posts/209938--javascriptthis-use-finishing)
 
 closure: !!都有用到module pattern  (fun()).xxx !!! 用chrome的dev tool看, 有三種scope, global/function/clousre
-1. [http://www.w3schools.com/js/js_function_closures.asp](http://www.w3schools.com/js/js_function_closures.asp)  !!!! 
+1. [http://www.w3schools.com/js/js_function_closures.asp](http://www.w3schools.com/js/js_function_closures.asp)  !!!!
 A closure is a function having access to the parent scope, even after the parent function has closed.
 
 2. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)  !!!!
@@ -140,11 +139,11 @@ A closure is a function having access to the parent scope, even after the parent
 es6, classes
 [http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/](http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/)
 
-es6, Arror function 
+es6, Arror function
 1. [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ES6 Preview  
-[http://weichienhung.github.io/blog/2014/03/12/es6-preview/](http://weichienhung.github.io/blog/2014/03/12/es6-preview/ ) 
+[http://weichienhung.github.io/blog/2014/03/12/es6-preview/](http://weichienhung.github.io/blog/2014/03/12/es6-preview/ )
 * arrows
 * classes
 * template strings
@@ -187,7 +186,7 @@ some test examples:
     }```  
 	接著印 testlocal 有值
 
-2. 
+2.
 ```function func2() {   
     var L = 'local';  
     G = 'global';  
@@ -202,7 +201,7 @@ some test examples:
 ```var a = 1;
 
 (function(){
-  console.log(a);    //  ? -> undefined 
+  console.log(a);    //  ? -> undefined
 
   var a = 100;
   console.log(a);    // 100
@@ -218,5 +217,5 @@ some test examples:
 })();```
 --
 
-Why does the value of typeof null change inside a loop? V8 engine bug. 
+Why does the value of typeof null change inside a loop? V8 engine bug.
 [http://stackoverflow.com/questions/37939455/why-does-the-value-of-typeof-null-change-inside-a-loop](http://stackoverflow.com/questions/37939455/why-does-the-value-of-typeof-null-change-inside-a-loop)
