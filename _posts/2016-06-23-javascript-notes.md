@@ -1,25 +1,6 @@
 ---
 ---
 
-1. abc
-    
-    ```javascript
-    let c = 33;  
-    ```
-2. def
-
-```javascript
-let x =5; 
-```
-
-~~~javascript
-let y =5;
-~~~
-
-~~~
-let z =5;
-~~~
-
 ### Notes:
 
 
