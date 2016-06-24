@@ -60,18 +60,16 @@ JavaScript 物件導向介紹
 1. non static method: `Person.prototype.sayHello = function()`  
 2. in constructor:   
 ```
-function Person (){
-	this.testFun = function{
-
-	}
-}
+    function Person (){    
+	    this.testFun = function{  
+	    }
+    }
 ```
 3.  key/value:  
 ```
 var myObj = {
   	myMethod: function(params) {
     	// ...do something
-
   	}
   }
 ``` 
@@ -111,7 +109,8 @@ es5 singleton
 2.   
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 
-this, bind
+this, bind  
+
 1. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 2. 理解 Javascript 的 Function.prototype.bind
 [http://andyyou.logdown.com/posts/233010-understanding-javascript-functionprototypebind](http://andyyou.logdown.com/posts/233010-understanding-javascript-functionprototypebind)
@@ -190,8 +189,8 @@ es7, spreading operator (not [...]->already in es6):
 
 ---
 
-some test codes:  
-1.  
+**test code 1:**
+
 ```
     if(true)
     {
@@ -201,7 +200,8 @@ some test codes:
 ```  
 接著印 testlocal 有值
 
-2.
+**test code 2:**
+
 ```
 function func2() {   
     var L = 'local';  
@@ -216,6 +216,7 @@ function func2() {
 ### 其他
 
 **特殊 case :**  
+
 ```
 var a = 1;
 
