@@ -12,7 +12,9 @@
 5. 可以直接印 console('test:', testobj)
 
 ---
-## ### Good references:
+
+## Good references:
+
 ### ES5
 [http://www.w3schools.com/js/js_arrays.asp](http://www.w3schools.com/js/js_arrays.asp)  
 JavaScript does not support arrays with named indexes.
@@ -39,21 +41,24 @@ JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 **module pattern**  
 [https://carldanley.com/js-module-pattern/](https://carldanley.com/js-module-pattern/) 
 
-about multi thread:
-1. [http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F](http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F)
+about multi thread:  
+
+1. [http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F](http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F)  
 2. [https://www.ptt.cc/bbs/Ajax/M.1320492552.A.2F1.html](https://www.ptt.cc/bbs/Ajax/M.1320492552.A.2F1.html)
 
 JavaScript 物件導向介紹  
 [https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9](https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9)
 
 物件的使用:  
-1. [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+1. [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects)  
 2. 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
 物件(es5)的member function (method)宣告方式:
-1. non static method: ```Person.prototype.sayHello = function()```
-2. in constructor: 
+  
+1. non static method: `Person.prototype.sayHello = function()`  
+2. in constructor:   
 ```
 function Person (){
 	this.testFun = function{
@@ -61,7 +66,7 @@ function Person (){
 	}
 }
 ```
-3.  key/value:
+3.  key/value:  
 ```
 var myObj = {
   	myMethod: function(params) {
@@ -69,12 +74,13 @@ var myObj = {
 
   	}
   }
-```
+``` 
 4. static: `Class.method = function ()`. It  has no relationship with an object instance of that constructor function  
 [http://ithelp.ithome.com.tw/question/10128721](http://ithelp.ithome.com.tw/question/10128721)
 
 
 function expressions/Function declaration:  
+
 1.  
 定義 JavaScript 函數（Functions）的各種方式 (非指member function)
 [http://blogger.gtwang.org/2014/04/defining-javascript-functions.html](http://blogger.gtwang.org/2014/04/defining-javascript-functions.html)  
@@ -98,7 +104,8 @@ es5 singleton
 **this**  
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
-**call**  
+**call:**  
+
 1.  JavaScript 物件導向介紹
 [https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9](https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9)
 2.   
@@ -122,6 +129,7 @@ this, Javascript 的 `this` 是指什麼?
 [http://crazyalu-blog.logdown.com/posts/209938--javascriptthis-use-finishing](http://crazyalu-blog.logdown.com/posts/209938--javascriptthis-use-finishing)
 
 **closure:**
+
 1. [http://www.w3schools.com/js/js_function_closures.asp](http://www.w3schools.com/js/js_function_closures.asp)  
 *A closure is a function having access to the parent scope, even after the parent function has closed.*
 
@@ -139,11 +147,12 @@ this, Javascript 的 `this` 是指什麼?
 es6, classes  
 [http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/](http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/)
 
-es6, Arror function
+es6, Arrow function  
 [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ES6 Preview  
-[http://weichienhung.github.io/blog/2014/03/12/es6-preview/](http://weichienhung.github.io/blog/2014/03/12/es6-preview/ )
+[http://weichienhung.github.io/blog/2014/03/12/es6-preview/](http://weichienhung.github.io/blog/2014/03/12/es6-preview/)
+
 * arrows
 * classes
 * template strings
@@ -160,6 +169,7 @@ es6 features
 
 es6 簡化的member function寫法  
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions)
+
 ```
 class MainPage extends React.Component {
 
@@ -172,24 +182,24 @@ class MainPage extends React.Component {
 ### ES7
 
 
-es7 (draft)
+es7 (draft)  
 [http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators](http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators)
 
 es7, spreading operator (not [...]->already in es6):
-```{...a, ...b}```
+`{...a, ...b}`
 
 ---
 
-some test examples:
+some test examples:  
 1.  
-    ```
+```
     if(true)
     {
 
       var testlocal = "123";  
     }
-    ```  
-	接著印 testlocal 有值
+```  
+接著印 testlocal 有值
 
 2.
 ```
@@ -215,7 +225,8 @@ var a = 1;
   var a = 100;
   console.log(a);    // 100
 
-})();```
+})();
+```
 
 因為在匿名函數獨立的 scope 內，不管 var 是放在最前面，或是最後一行，他的變數實體在該 code block 一開始就是新的了，也就是說，剛剛的 code 其實等同下面這段：
 
