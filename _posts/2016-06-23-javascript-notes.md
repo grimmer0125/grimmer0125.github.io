@@ -190,7 +190,7 @@ es7, spreading operator (not [...]->already in es6):
 
 ---
 
-some test examples:  
+some test codes:  
 1.  
 ```
     if(true)
@@ -215,7 +215,7 @@ function func2() {
 ---
 ### 其他
 
-**特殊 case 1:**  
+**特殊 case :**  
 ```
 var a = 1;
 
