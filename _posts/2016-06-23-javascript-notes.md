@@ -1,6 +1,18 @@
 ---
 ---
 
+```javascript
+let x =5; 
+```
+
+~~~javascript
+let y =5;
+~~~
+
+~~~
+let z =5;
+~~~
+
 ### Notes:
 
 
@@ -59,20 +71,18 @@ JavaScript 物件導向介紹
   
 1. non static method: `Person.prototype.sayHello = function()`  
 2. in constructor:   
-```
+
     function Person (){    
 	    this.testFun = function{  
 	    }
     }
-```
 3.  key/value:  
-```
-var myObj = {
-  	myMethod: function(params) {
-    	// ...do something
-  	}
-  }
-``` 
+
+    var myObj = {
+  	  myMethod: function(params) {
+    	  // ...do something
+  	  }
+    }
 4. static: `Class.method = function ()`. It  has no relationship with an object instance of that constructor function  
 [http://ithelp.ithome.com.tw/question/10128721](http://ithelp.ithome.com.tw/question/10128721)
 
