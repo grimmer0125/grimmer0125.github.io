@@ -1,29 +1,6 @@
 ---
 ---
 
-
-1. jld;af
-
-    ~~~javascript
-    var x =5;
-    ~~~
-2. jfl;kdasf
-
-1. jld;af3355
-
-    ~~~javascript
-    let x =5;
-    ~~~
-2. jfl;kdasf55
-
-
-1. jld;af333
-
-    ~~~
-    var x =5;
-    ~~~
-2. jfl;kdasf
-
 ### Notes:
 
 
