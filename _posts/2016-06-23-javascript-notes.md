@@ -9,17 +9,11 @@
 3. this, call, apply -> closure
 4. 全域變數其實就是全域物件的屬性。瀏覽器：window物件、node.js：GLOBAL物件)
    例外：在使用node.js時，若使用node file.js這樣的方式執行js檔，並不會讓宣告的全域變數掛在全域物件上(意指會利用function將code整個包起來執行)，故輸出應為undefined。
+5. 可以直接印 console('test:', testobj)
 
 ---
 
-### tips:
-
-
-可以直接印 console('test:', testobj)
-
----
-
-### Gool references:
+### Good references:
 
 [http://www.w3schools.com/js/js_arrays.asp](http://www.w3schools.com/js/js_arrays.asp)  
 JavaScript does not support arrays with named indexes.
@@ -32,7 +26,7 @@ How do you check if a variable is an array in JavaScript?
 [http://stackoverflow.com/questions/767486/how-do-you-check-if-a-variable-is-an-array-in-javascript](http://stackoverflow.com/questions/767486/how-do-you-check-if-a-variable-is-an-array-in-javascript)
 
 How to check for “undefined” in JavaScript? [duplicate]
-[http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript](http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript)
+[http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript](http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript)  
 if (aa.bb) ->bb is undefined , will not throw exceptions
 but  
 if (aa) ->aa is undefined, will throw exceptions.
@@ -40,21 +34,21 @@ if (aa) ->aa is undefined, will throw exceptions.
 JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 [http://www.w3schools.com/js/js_hoisting.asp](http://www.w3schools.com/js/js_hoisting.asp)
 
-[轉載]你所想像不到的 JavaScript
+[轉載]你所想像不到的 JavaScript  
 [http://www.vixual.net/blog/archives/31](http://www.vixual.net/blog/archives/31)
 
 module pattern
 [https://carldanley.com/js-module-pattern/](https://carldanley.com/js-module-pattern/) !!!!!!
 
-multi thread ?
+about multi thread:
 1. [http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F](http://caramels.pixnet.net/blog/post/26575018-javascript-%E6%98%AF%E5%90%A6%E7%82%BA%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92(multi-thread)-%3F)
 2. [https://www.ptt.cc/bbs/Ajax/M.1320492552.A.2F1.html](https://www.ptt.cc/bbs/Ajax/M.1320492552.A.2F1.html)
 
-JavaScript 物件導向介紹
+JavaScript 物件導向介紹  
 [https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9](https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9)
 
 物件的使用  
-[https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects)
+1. [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
