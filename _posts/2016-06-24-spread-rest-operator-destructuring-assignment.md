@@ -1,7 +1,6 @@
---
---
-用來測試的: http://es6console.com/
 
+
+用來測試的: http://es6console.com/
 
 ---
 
