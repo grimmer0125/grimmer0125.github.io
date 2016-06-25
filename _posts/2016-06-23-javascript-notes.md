@@ -3,7 +3,6 @@
 
 ### Notes:
 
-
 1. everything is object, function also.
 2. scope (es5: function scope, es6: let->block scope)
 3. this, call, apply -> closure
@@ -38,8 +37,11 @@ JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 [轉載]你所想像不到的 JavaScript  
 [http://www.vixual.net/blog/archives/31](http://www.vixual.net/blog/archives/31)
 
+**strict mode**:
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+
 **module pattern**  
-[https://carldanley.com/js-module-pattern/](https://carldanley.com/js-module-pattern/) 
+[https://carldanley.com/js-module-pattern/](https://carldanley.com/js-module-pattern/)
 
 about multi thread:  
 
@@ -52,11 +54,11 @@ JavaScript 物件導向介紹
 物件的使用:  
 
 1. [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Working_with_Objects)  
-2. 
+2.
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
 物件(es5)的member function (method)宣告方式:
-  
+
 1. non static method: `Person.prototype.sayHello = function()`  
 2. in constructor:   
 
@@ -94,7 +96,7 @@ es5 singleton
 **JavaScript Scope**  
 [http://www.w3schools.com/js/js_scope.asp](http://www.w3schools.com/js/js_scope.asp)
 
-**scope, 變數範圍, 有提前講到 es6的let (block scope)** 
+**scope, 變數範圍, 有提前講到 es6的let (block scope)**
 [https://msdn.microsoft.com/zh-tw/library/bzt2dkta(v=vs.94).aspx](https://msdn.microsoft.com/zh-tw/library/bzt2dkta(v=vs.94).aspx)
 
 **this**  
@@ -138,7 +140,7 @@ this, Javascript 的 `this` 是指什麼?
 
 --
 
-### ES6 
+### ES6
 
 
 es6, classes  
@@ -182,8 +184,8 @@ class MainPage extends React.Component {
 es7 (draft)  
 [http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators](http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators)
 
-es7, spreading operator (not [...]->already in es6):
-`{...a, ...b}`
+es7, spreading operator:
+`c = {...a, ...b}`
 
 ---
 
