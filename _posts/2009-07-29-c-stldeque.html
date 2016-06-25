@@ -1,0 +1,12 @@
+---
+title: c++ STL中的Deque使用
+date: '2009-07-29T14:08:00.001+08:00'
+author: Teng-Chieh Kang
+tags:
+- c++
+modified_time: '2009-08-03T23:55:07.863+08:00'
+blogger_id: tag:blogger.com,1999:blog-2031747454610917099.post-1571111592768419405
+blogger_orig_url: http://q-and-g.blogspot.com/2009/07/c-stldeque.html
+---
+
+基本上，deque是個雙向佇列，所以可自由的從最前面或最後面加入元素。當要清空deque時，若使用<br /><pre><br />deque.clear();<br /></pre><br />則bulid debug mode下的project會過不了，在release mode下會過但執行時有時會跳出例外。最後我找到的soultion則是使用<br /><pre><br />deque.erase(deque.begin(), deque.end());<br /></pre><br />這樣就OK了。

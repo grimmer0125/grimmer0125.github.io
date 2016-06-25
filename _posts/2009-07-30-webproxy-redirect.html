@@ -1,0 +1,13 @@
+---
+title: 使用webProxy+Redirect上被封鎖的網站
+date: '2009-07-30T09:27:00.017+08:00'
+author: Teng-Chieh Kang
+tags:
+- Network
+modified_time: '2010-07-14T16:44:47.558+08:00'
+thumbnail: http://2.bp.blogspot.com/_oRJmecUA8ak/SnWrj_KzllI/AAAAAAAAATg/3ANytROqStE/s72-c/3.png
+blogger_id: tag:blogger.com,1999:blog-2031747454610917099.post-6905490846311775727
+blogger_orig_url: http://q-and-g.blogspot.com/2009/07/webproxyredirect.html
+---
+
+有時候某些網站是被網管封鎖住的，或是有些網站是擋住台灣的ip，<br />這些時候就可以用 proxy的技巧來突破封鎖，不過網管又有可能鎖住proxy，<br />所以這時就可以選擇用webproxy，不過webproxy的問題在於你要把你瀏覽的網址貼在提供webproxy的網站的欄位裡，有點麻煩。<br />這時就可以用firefox的套件Redirect來自動做這件事。<br />先去<a href="https://addons.mozilla.org/zh-TW/firefox/addon/5064"> https://addons.mozilla.org/zh-TW/firefox/addon/5064</a> 安裝此套件，<br />接著就去套件設定處新增一個profile，以下以<span style="color: rgb(204, 102, 204);">無名</span>為例。<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_oRJmecUA8ak/SnWrj_KzllI/AAAAAAAAATg/3ANytROqStE/s1600-h/3.png"><img style="cursor: pointer; width: 400px; height: 203px;" src="http://2.bp.blogspot.com/_oRJmecUA8ak/SnWrj_KzllI/AAAAAAAAATg/3ANytROqStE/s400/3.png" alt="" id="BLOGGER_PHOTO_ID_5365383165822342738" border="0" /></a><br /><br /><code><br />Include Pattern: http://www.wretch.cc/*<br />Redirect to: http://anonymouse.org/cgi-bin/anon-www.cgi/http://www.wretch.cc/$1<br /></code><br /><br />這樣以後只要你要連到無名的網址 (按連結或手動key)，都會自動經由此webproxy跳到無名的網頁，如果發現無效，那可能網管連此webproxy也檔住，這就要換一個webproxy的網站試了（上述以anonymouse網站為例，記得還要找出webproxy的轉址的規則)。<br /><br /><span style="color: rgb(204, 102, 204);">BBS:</span><br /><code><br />Include Pattern: http://zterm.applet.googlepages.com/ZTerm.htm<br />Redirect to: http://anonymouse.org/cgi-bin/anon-www.cgi/http://zterm.applet.googlepages.com/ZTerm.htm</code><span style="font-size:180%;"><br /><br /><span style="color: rgb(255, 0, 0);">注意</span></span><span style="color: rgb(255, 0, 0);">:<br />使用此webproxy技巧有安全上的疑慮， 若需登入的網頁請自行考量是否用此法瀏覽。</span><span style="font-size:180%;"><br /></span>

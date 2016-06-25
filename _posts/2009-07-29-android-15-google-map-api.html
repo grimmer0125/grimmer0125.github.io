@@ -1,0 +1,13 @@
+---
+title: Android 1.5 上使用google map API的設定
+date: '2009-07-29T23:02:00.008+08:00'
+author: Teng-Chieh Kang
+tags:
+- Android
+modified_time: '2009-08-03T23:53:51.802+08:00'
+thumbnail: http://3.bp.blogspot.com/_oRJmecUA8ak/SnWk9k1Bg5I/AAAAAAAAATQ/EBO7u8MMLnE/s72-c/1.png
+blogger_id: tag:blogger.com,1999:blog-2031747454610917099.post-596965455347513900
+blogger_orig_url: http://q-and-g.blogspot.com/2009/07/android-15-google-map-api.html
+---
+
+在進入Android 1.5後，很多地方都變得不一樣了，google API的使用就特別獨立成一個模擬器設定，見下圖。<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_oRJmecUA8ak/SnWk9k1Bg5I/AAAAAAAAATQ/EBO7u8MMLnE/s1600-h/1.png"><img style="cursor: pointer; width: 400px; height: 322px;" src="http://3.bp.blogspot.com/_oRJmecUA8ak/SnWk9k1Bg5I/AAAAAAAAATQ/EBO7u8MMLnE/s400/1.png" alt="" id="BLOGGER_PHOTO_ID_5365375908846863250" border="0" /></a><div style="text-align: right;"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_oRJmecUA8ak/SnBn89uvBFI/AAAAAAAAAR0/ueeYGruzWNI/s1600-h/1.png"><br /></a></div><br />所以如果在程式中要使用到google map API，則run模擬器就要選上圖中的<span style="color: rgb(255, 0, 0); font-weight: bold;">d</span>，另外就是程式本身的bulid target也要選擇google APIs，而不是Android 1.5，見下圖。<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_oRJmecUA8ak/SnWlZbUem_I/AAAAAAAAATY/Lrz3dnEtk0Q/s1600-h/2.png"><img style="cursor: pointer; width: 400px; height: 241px;" src="http://3.bp.blogspot.com/_oRJmecUA8ak/SnWlZbUem_I/AAAAAAAAATY/Lrz3dnEtk0Q/s400/2.png" alt="" id="BLOGGER_PHOTO_ID_5365376387330776050" border="0" /></a><br /><br />若這些沒設定好，在import google api的函式庫時則會出現找不到的error。<br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_oRJmecUA8ak/SnBnHXUpdOI/AAAAAAAAARs/gXStyzMISUs/s1600-h/2.png"><br /></a>

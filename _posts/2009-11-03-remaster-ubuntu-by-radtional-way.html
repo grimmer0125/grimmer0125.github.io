@@ -1,0 +1,12 @@
+---
+title: Remaster Ubuntu by Tradtional Way
+date: '2009-11-03T10:52:00.006+08:00'
+author: Teng-Chieh Kang
+tags:
+- Ubuntu
+modified_time: '2009-11-09T10:34:20.962+08:00'
+blogger_id: tag:blogger.com,1999:blog-2031747454610917099.post-1152205849038431463
+blogger_orig_url: http://q-and-g.blogspot.com/2009/11/remaster-ubuntu-by-radtional-way.html
+---
+
+簡短的紀錄一下，大致上都是照以下這教學<br /><a href="https://help.ubuntu.com/community/LiveCDCustomization">https://help.ubuntu.com/community/LiveCDCustomization</a><br />不過因為預設的apt-get相關l設定有時會抓不到套件，所以在要進入chroot前，<span style="font-size:85%;"><br />Copy resolv.conf and sources.list from the host system<br /><span style="font-size:85%;"># cp /etc/resolv.conf jaunty/remaster/etc/</span><br /><br />Preserve   original sources.list<br /># cp jaunty/remaster/etc/apt/soures.list jaunty/remaster/etc/apt/soures.list.backup<br /># cp /etc/apt/sources.list /jaunty/remaster/etc/apt/<br /><br />exit後，replace the sources.list with the original sources.list<br /><span style="font-size:85%;"># cp jaunty/remaster/etc/apt/sources.list.backup   jaunty/remaster/etc/apt/sources.list</span></span>

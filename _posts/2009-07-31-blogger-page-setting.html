@@ -1,0 +1,12 @@
+---
+title: 修改google blog版面區塊大小
+date: '2009-07-31T10:55:00.016+08:00'
+author: Teng-Chieh Kang
+tags:
+- blog
+modified_time: '2010-05-21T22:41:22.354+08:00'
+blogger_id: tag:blogger.com,1999:blog-2031747454610917099.post-1568696159462670148
+blogger_orig_url: http://q-and-g.blogspot.com/2009/07/blog.html
+---
+
+這是我花了一點點時間研究出來的，記錄一下。<br />假設一開始在blogspot首頁，選自訂->版面配置->修改html。<br /><br />1.修改<span style="color: rgb(204, 51, 204);">blog標題寬度</span>。<br /><pre><br />#header-wrapper {<br />   ...<br />   width:660->960px;<br />   ...<br />}<br /></pre><br />2.修改<span style="color: rgb(204, 51, 204);">文章區塊</span>+<span style="color: rgb(204, 51, 204);">側邊欄總寬度</span>。<br /><pre><br />#outer-wrapper {<br />   ...<br />   width: 660->960px;<br />   ...<br />}<br /></pre><br />3.修改<span style="color: rgb(204, 51, 204);">文章區塊寬度</span>。<br /><pre><br />#main-wrapper {<br />   ...<br />   width: 410->710px;<br />   ...<br />}<br /></pre><br />4.修改<span style="color: rgb(204, 51, 204);">blog標題描述的文字寬度</span>。<br /><pre><br />#header .description {<br />   ...<br />   max-width:700->1000px;<br />   ...<br />}<br /></pre>
