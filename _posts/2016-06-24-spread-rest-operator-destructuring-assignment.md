@@ -1,4 +1,8 @@
-
+---
+title: 'Spread, Rest and Destructuring assignment in JavaScript'
+tags:
+- JavaScript
+---
 
 用來測試的: http://es6console.com/
 
@@ -9,7 +13,7 @@ spread operator: `...`, 展開東西
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator (只講解es6的)  
 es6: array展開. e.g. array object展開成arguments丟進function
   or `c=[...a]`  
-es7: object類. `c= {...a, ...b}` 
+es7: object類. `c= {...a, ...b}`
 
 ---
 rest operator:`...`, 變成一個,  for destructuring arrays and objects  
