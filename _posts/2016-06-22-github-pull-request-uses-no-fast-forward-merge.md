@@ -1,4 +1,6 @@
 ---
+tags:
+  - Git
 ---
 It means it always uses  
 ```git merge –no-ff```  
