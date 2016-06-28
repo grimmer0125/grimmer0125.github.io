@@ -1,4 +1,5 @@
 ---
+title: JavaScript notes
 ---
 
 ### Notes:
@@ -112,7 +113,7 @@ es5 singleton
 this, bind  
 
 1. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
-2. 理解 Javascript 的 Function.prototype.bind
+2. 理解 JavaScript 的 Function.prototype.bind
 [http://andyyou.logdown.com/posts/233010-understanding-javascript-functionprototypebind](http://andyyou.logdown.com/posts/233010-understanding-javascript-functionprototypebind)
 
 this, strict mode
@@ -121,10 +122,10 @@ this, strict mode
 **this, JavaScript Function Invocation**
 [http://www.w3schools.com/js/js_function_invocation.asp](http://www.w3schools.com/js/js_function_invocation.asp)
 
-this, Javascript 的 `this` 是指什麼?
+this, JavaScript 的 `this` 是指什麼?
 [http://dreamerslab.com/blog/tw/javascript-this/](http://dreamerslab.com/blog/tw/javascript-this/)
 
-**this, Javascript：this用法整理, 超重要**  
+**this, JavScript：this用法整理, 超重要**  
 [http://crazyalu-blog.logdown.com/posts/209938--javascriptthis-use-finishing](http://crazyalu-blog.logdown.com/posts/209938--javascriptthis-use-finishing)
 
 **closure:**
