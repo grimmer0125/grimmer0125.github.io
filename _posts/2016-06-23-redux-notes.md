@@ -1,3 +1,8 @@
+---
+tags:
+  - JavaScript 
+  - Front end
+---
 Redux ref url:
 
 http://redux.js.org/docs/introduction/PriorArt.html
