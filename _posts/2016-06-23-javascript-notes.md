@@ -1,5 +1,7 @@
 ---
 title: JavaScript notes
+tags:
+  - JavaScript
 ---
 
 ### Notes:
@@ -10,6 +12,9 @@ title: JavaScript notes
 4. 全域變數其實就是全域物件的屬性。瀏覽器：window物件、node.js：GLOBAL物件)
    例外：在使用node.js時，若使用node file.js這樣的方式執行js檔，並不會讓宣告的全域變數掛在全域物件上(意指會利用function將code整個包起來執行)，故輸出應為undefined。
 5. 可以直接印 console('test:', testobj)
+6. 3.5/2 會等於1.75
+7. JSONP:（JSON with Padding）是資料格式JSON的一種“使用模式”，可以讓網頁從別的網域要資料。 另一個解決這個問題的新方法是跨來源資源共享。
+8. [你不可不知的JavaScript](http://www.opensource.net.tw/node/12)  
 
 ---
 
