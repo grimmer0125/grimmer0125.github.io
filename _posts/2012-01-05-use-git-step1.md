@@ -24,7 +24,7 @@ http://code.google.com/p/msysgit/
 安裝時選擇如附檔的圖，第三選項。
 安裝後重開機或重登入後，即可使用如2.a所述的 ssh-keygen 方法。
 ~~~
-[My helpful screenshot]({{ site.url }}/images/git-key-win.png)
+![My helpful screenshot]({{ site.url }}/images/git-key-win.png)
 
 
 3.Git的簡單使用:  
