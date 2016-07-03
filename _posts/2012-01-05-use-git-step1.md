@@ -9,8 +9,16 @@ Git server主要有兩種帳號管理，一種是ssh/Linux的帳號，一種是�
 ssh-keygen -t rsa (建議不要讓通行碼passphrase留空) ，請把產生出來的keypair的兩個檔案: xx, xx.pub ，改成你的帳號 及你的帳號.pub，例如grimmer 及grimmer.pub。
 接著上傳給git server管理者/管理頁面. 
 
-2.b. 在win上，請使用 puttygen選擇 ssh2-rsa產生key pair。
+2.b. 在win上，請使用 puttygen 選擇 ssh2-rsa產生key pair。
 http://libai.math.ncu.edu.tw/bcc16/6/putty/puttygen.html ，再依2.a後續步驟。
+[updated] 使用puttygen可能會有格式上的問題，較保險的方法是
+
+~~~
+下載win上的git console client， msysgit，
+http://code.google.com/p/msysgit/
+安裝時選擇如附檔的圖，第三選項。
+安裝後重開機或重登入後，即可使用如2.a所述的 ssh-keygen 方法。
+~~~
 
 3. Git的簡單使用
 a. command line的話有Git init (如果是server已建好的repo，不用這步), 
