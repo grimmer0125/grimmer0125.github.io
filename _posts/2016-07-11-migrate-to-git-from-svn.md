@@ -2,7 +2,9 @@
 tags:
   - Git
 ---
-####Steps:  
+
+### Steps:  
+
 1. 使用git-svn。mac預設就有裝。ubuntu請用 sudo apt-get install git-core git-svn。請打如下的command
 `git svn clone http://yourSVNpath --stdlayout  --no-minimize-url  -A ~/authors.txt gitRepoFolderName`
 
