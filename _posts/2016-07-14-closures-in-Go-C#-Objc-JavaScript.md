@@ -5,7 +5,7 @@ tags:
 - JavaScript
 - Go
 - Objective-C
-- C#
+- C Sharp
 ---
 
 A closure is a function value that references variables from outside its body.
