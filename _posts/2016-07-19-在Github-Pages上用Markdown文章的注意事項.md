@@ -27,20 +27,23 @@ tags:
      2. 第一行結尾留兩個空白
 
 4. inline code block:使用兩個*前導字元*包起來,e.g. ``test``
+
 5. multiple line code block, 可使用四個空白 或以下做法  
 
+    ```javascript
     ```javascript  
     var test = 5;
     ```  
+    ```
     注意的是a. 需視整個為一段落，換言之就是需要空一行或是留兩個空白 b. javascript為指定使用何種的程式語法高亮度
-7. 語法高亮度的清單(不確定正確): [https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers), [https://github.com/github/linguist/blob/master/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml), 有人說別的Blog(e.g. [Hexo](https://hexo.io))所使用的Markdown沒有支持Github用的```jascript這種
-8. https://kramdown.herokuapp.com/ 沒有支援ES6的語法高亮度.
+6. 語法高亮度的清單(不確定正確): [https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers), [https://github.com/github/linguist/blob/master/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml), 有人說別的Blog(e.g. [Hexo](https://hexo.io))所使用的Markdown沒有支持Github用的```jascript這種
+7. [https://kramdown.herokuapp.com/](https://kramdown.herokuapp.com/) 沒有支援ES6的語法高亮度.
 
 
 ## List相關:
 1. list要視為新的段落，所以要空一行等動作.
 2. 多層list(Sub list). 要用四個空格來縮排
 3. number後面要加文字才行, 不能直接換行接sub list
-4. GitHub page 不支援 code block的 語法高亮度在 list中 (不過```不會顯示出來)
+4. GitHub page 不支援 code block的 語法高亮度在 list中
 5. list裡面有多行code , 一定要用四個空格
 6. list裡面包multiple code block, 一定要空一行
