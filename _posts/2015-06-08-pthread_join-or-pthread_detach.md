@@ -1,4 +1,6 @@
 ---
+title: 'pthread_join and pthread_detach'
+
 tags:
     c++  
 ---
