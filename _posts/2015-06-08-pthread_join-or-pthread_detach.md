@@ -2,7 +2,8 @@
 title: 'pthread_join and pthread_detach'
 
 tags:
-    c++  
+  - thread
+  - C
 ---
 
 [http://man7.org/linux/man-pages/man3/pthread_detach.3.html](http://man7.org/linux/man-pages/man3/pthread_detach.3.html):
