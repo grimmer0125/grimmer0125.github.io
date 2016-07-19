@@ -1,5 +1,5 @@
 ---
-title: 'DI(Dependency Injection) & Tests in Golang'
+title: 'DI (Dependency Injection) & Tests in Golang'
 
 tags:
 - Go
