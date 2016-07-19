@@ -13,12 +13,11 @@ tags:
 ## Front Matter
 GitHub Page使用的Jekyll有所謂的[Front Matter](https://jekyllrb.com/docs/frontmatter/)，可以在文章裡面加上如下的Yaml設定, 客製化文章一些資料, 比如說 layout, title, tag, date 等. 如果不指定則像是文章名稱會預設用檔名(字首大寫). E.g. 2016-01-01-文章名.md. posts資料夾裡的文章檔名一定要帶有時間，     
 
-```
----
-title: "It is a cat."
----    
-正文開始，最好與上面的Yaml空一行，不然有時排版會亂掉.
-```  
+    ---
+    title: "It is a cat."
+    ---    
+    正文開始，最好與上面的Yaml空一行，不然有時排版會亂掉.
+
 
 ## 需要注意的  
 1. 若要測試寫好的.md/.markdown檔，若要100%確定效果，可以  
@@ -30,7 +29,7 @@ title: "It is a cat."
 
 4. inline code block:使用兩個*前導字元*包起來,e.g.  
 
-     `test`      
+    ```` `test`  ````
 
 5. multiple line code block, 可使用四個空白 或是```(Fenced code blocks)的做法, 參考[https://help.github.com/articles/creating-and-highlighting-code-blocks/](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
