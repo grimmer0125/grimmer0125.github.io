@@ -1,5 +1,5 @@
 ---
-title: 'Some notes about Smart City Summit & Expo'
+title: 'Some notes about 2015 Smart City Summit & Expo'
 
 tags:
 - IoT
