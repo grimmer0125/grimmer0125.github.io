@@ -46,8 +46,8 @@ JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 **strict mode**:
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
-**module pattern**  
-[https://carldanley.com/js-module-pattern/](https://carldanley.com/js-module-pattern/)
+**module pattern & immediately invoked function expression**  
+[https://toddmotto.com/mastering-the-module-pattern/](https://toddmotto.com/mastering-the-module-pattern/)
 
 about multi thread:  
 
