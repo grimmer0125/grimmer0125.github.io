@@ -8,12 +8,6 @@ tags:
 1. GitHub Flavored Markdown (修改於 kramdown) + Syntax Highlight(<-不知那一個套件). *GitHub uses what we're calling "GitHub Flavored Markdown" (GFM) for messages, issues, and comments.*. GFM使用說明:[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/). 所以Readme.md是用一般的 kramdown
 2. Github Page 用的： [kramdown](https://guides.github.com/features/mastering-markdown/) + Syntax Highlight.
 3. GitHub 的線上看到的Readme.md及其Preview，原則上應該是2.但發現其實有時候還是不太一樣，猜測可能是kramdown版本差異。
-
-    ---
-    title: "It is a cat."
-    ---    
-正文開始，最好與上面的Yaml空一行，不然有時排版會亂掉.
-```  
 4. 其他非 kmarkdown 的 Markdown. 大部份網頁版 Markdown , Markdown軟體 或是Atom等Markdown外掛皆為這種. 這三種皆有大小不等的差異。
 
 ## Front Matter
@@ -34,7 +28,9 @@ title: "It is a cat."
      1. 空一行
      2. 第一行結尾留兩個空白
 
-4. inline code block:使用兩個*前導字元*包起來,e.g. ``test``
+4. inline code block:使用兩個*前導字元*包起來,e.g.  
+
+     `test`      
 
 5. multiple line code block, 可使用四個空白 或是```(Fenced code blocks)的做法, 參考[https://help.github.com/articles/creating-and-highlighting-code-blocks/](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
