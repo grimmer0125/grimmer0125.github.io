@@ -3,7 +3,7 @@ tags:
 - Markdown
 ---
 
-## 總共有4種Markdown語法, 前3種跟GitHub相關
+## 總共有4種Markdown語法, 前3種跟GitHub相關2
 
 1. GitHub Flavored Markdown (修改於 kramdown) + Syntax Highlight(<-不知那一個套件). *GitHub uses what we're calling "GitHub Flavored Markdown" (GFM) for messages, issues, and comments.*. GFM使用說明:[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/). 所以Readme.md是用一般的 kramdown
 2. Github Page 用的： [kramdown](https://guides.github.com/features/mastering-markdown/) + Syntax Highlight.
@@ -16,7 +16,7 @@ GitHub Page使用的Jekyll有所謂的[Front Matter](https://jekyllrb.com/docs/f
     ---
     title: "It is a cat."
     ---    
-    
+
     正文開始，最好與上面的Yaml空一行，不然有時排版會亂掉.
 
 
