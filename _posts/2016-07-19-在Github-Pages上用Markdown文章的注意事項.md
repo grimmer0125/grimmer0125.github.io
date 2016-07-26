@@ -7,8 +7,8 @@ tags:
 
 1. GitHub Flavored Markdown (修改於 kramdown) + Syntax Highlight(<-不知那一個套件). *GitHub uses what we're calling "GitHub Flavored Markdown" (GFM) for messages, issues, and comments.*. GFM使用說明:[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/). 所以Readme.md是用一般的 kramdown
 2. Github Page 用的： [kramdown](https://guides.github.com/features/mastering-markdown/) + Syntax Highlight.
-3. GitHub 的線上看到的Readme.md及其Preview，原則上應該是2.但發現其實有時候還是不太一樣，猜測可能是kramdown版本差異。
-4. 其他非 kmarkdown 的 Markdown. 大部份網頁版 Markdown , Markdown軟體 或是Atom等Markdown外掛皆為這種. 這三種皆有大小不等的差異。
+3. GitHub 的線上看到的Readme.md及其Preview，原則上應該是2.但發現其實有時候還是不太一樣，猜測可能是kramdown版本差異。也可能跟跟4.的某些版本是一樣的。
+4. 其他非 kmarkdown 的 Markdown. 大部份網頁版 Markdown , Markdown軟體 或是Atom等Markdown外掛皆為這種. 這三種(1,2,4)皆有大小不等的差異。
 
 ## Front Matter
 GitHub Page使用的Jekyll有所謂的[Front Matter](https://jekyllrb.com/docs/frontmatter/)，可以在文章裡面加上如下的Yaml設定, 客製化文章一些資料, 比如說 layout, title, tag, date 等. 如果不指定則像是文章名稱會預設用檔名(字首大寫). E.g. 2016-01-01-文章名.md. posts資料夾裡的文章檔名一定要帶有時間，     
