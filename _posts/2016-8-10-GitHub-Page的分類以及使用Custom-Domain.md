@@ -30,6 +30,6 @@ Custom domain on GitHub Pages:
     3. 如果subdomain的(www.example.com/aa.exaomple.com)，則是設定 cname record, e.g. ` www  -> username.github.io`
 
 
- p.s.1. GitHub 是建議設定www.example.com 而不是example.com (apex type)，若真需要設定apex type，則建議同時也設定wwww.(即example.com & www.example.com同時work)
+ p.s.1. GitHub 是建議設定www.example.com 而不是example.com (apex type)，若真需要設定apex type，則建議同時也設定www.(即example.com & www.example.com同時work, 即上面的2.2 & 2.3都做)
 
  p.s.2. 若同時support apex跟subdomain type, 則會根據GitHub repo setting裡的custom domain來決定把那一個自動導到那一個. 亦即若在GitHub那邊是設定 example.com, 而DNS provider兩個都有設定, 則打開www.example.com會自動轉址到example.com . ref:[https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/](https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/)
