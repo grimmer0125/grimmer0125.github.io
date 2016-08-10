@@ -6,12 +6,12 @@ tags:
 ---
 GitHub Pages Notes:
 
-1. GitHub pages分成兩大種, a. User & Organization Pages (使用master branch) b. Project Pages. (使用gh-pages branch) 詳細介紹 https://help.github.com/articles/user-organization-and-project-pages/
+1. GitHub pages分成兩大種, a. User & Organization Pages (使用master branch) b. Project Pages. (使用gh-pages branch) 詳細介紹 [https://help.github.com/articles/user-organization-and-project-pages/](https://help.github.com/articles/user-organization-and-project-pages/)
 
 2. 若已設定custom domain for user/organization pages (e.g. aa.example.com) , 則 Project Pages site 的domain會自動變成 aa.example.com//projectname, 參考
-https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/. *If no custom domain is used, the Project Pages sites are served under a subpath of the User Pages site: username.github.io/projectname*
+[https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/](https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/). *If no custom domain is used, the Project Pages sites are served under a subpath of the User Pages site: username.github.io/projectname*
 
-3. 若需要在custom domain上加入 SSL 的功能，可考慮使用 cloudflare CDN. 教學. https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/. 但經實驗在這種組合下，user pages的custom domain用有 subdomain(e.g. www.example.com) 的會有問題, 建議使用 example.com.(指的是是在GitHub repo那邊設定的custom domain, 非指DNS provider端)   
+3. 若需要在custom domain上加入 SSL 的功能，可考慮使用 cloudflare CDN. 教學. [https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/). 但經實驗在這種組合下，user pages的custom domain用有 subdomain(e.g. www.example.com) 的會有問題, 建議使用 example.com.(指的是是在GitHub repo那邊設定的custom domain, 非指DNS provider端)   
 
 
 p.s. 除了以上以外, 剩下的GitHub官方設定custom domain的文章都沒有對user/project pages做區分
