@@ -37,6 +37,7 @@ GitHub Page使用的Jekyll有所謂的[Front Matter](https://jekyllrb.com/docs/f
 6. 語法高亮度的清單(不確定正確): [https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers), [https://github.com/github/linguist/blob/master/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml), 有人說別的Blog(e.g. [Hexo](https://hexo.io))所使用的Markdown沒有支持Github用的```jascript這種
 7. [https://kramdown.herokuapp.com/](https://kramdown.herokuapp.com/) 沒有支援ES6的語法高亮度.
 
+8. 在 code block or inline code 中打出 ` 符號的方法. [http://stackoverflow.com/questions/33224686/how-to-render-triple-backticks-as-inline-code-block-in-markdown](http://stackoverflow.com/questions/33224686/how-to-render-triple-backticks-as-inline-code-block-in-markdown), *So I've found that using 4 backticks as opening and closing deliminators does the trick:*
 
 ## List相關:
 1. list要視為新的段落，所以要空一行等動作.
