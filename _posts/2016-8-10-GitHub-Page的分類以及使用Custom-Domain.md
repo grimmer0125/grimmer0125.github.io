@@ -24,11 +24,11 @@ Custom domain on GitHub Pages:
 
 2. 步驟是
 
-    1. 在GitHub的repo的settings裡 設定custom domain. 或是手動 建立一個CNAME file(內容是example.com/www.example.com<-只能有一行)在此repo裡 .
+    1. 在GitHub的repo的settings裡 設定custom domain. 或是手動 建立一個CNAME file(內容是example.com/www.example.com<-只能有一行)在此repo裡.
 
     2. 如果是apex (沒有subdomain的, e.g. example.com)的, 在DNS provider那邊設定 aname/alias(這個就沒有講怎麼設定，只有說要去問DNS provider), 沒有提供aname設定, 則退而設定 a record(一定會有的).  細節教學: [https://help.github.com/articles/setting-up-an-apex-domain/](https://help.github.com/articles/setting-up-an-apex-domain/) (設定如下的兩筆的a record, 因為有兩個GitHub ip). `@ -> githubIP`
 
-    3. 如果subdomain的(www.example.com/aa.exaomple.com)，則是設定 cname record, e.g. `www  -> username.github.io`
+    3. 如果subdomain的(e.g. www.example.com or aa.exaomple.com)，則是在DNS provider設定 CNAME record, e.g. `www  -> username.github.io`. [https://help.github.com/articles/setting-up-a-custom-subdomain/](https://help.github.com/articles/setting-up-a-custom-subdomain/)
 
 
  p.s.1. GitHub 是建議設定www.example.com 而不是example.com (apex type)，若真需要設定apex type，則建議同時也設定www.(即example.com & www.example.com同時work, 即上面的2.2 & 2.3都做), 如下圖:
