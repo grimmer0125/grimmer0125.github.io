@@ -4,6 +4,7 @@ title: 'GitHub Pages的分類以及使用Custom Domain'
 tags:
 - GitHub
 ---
+
 GitHub Pages Notes:
 
 1. GitHub pages分成兩大種, a. User & Organization Pages (使用master branch) b. Project Pages. (使用gh-pages branch) 詳細介紹 [https://help.github.com/articles/user-organization-and-project-pages/](https://help.github.com/articles/user-organization-and-project-pages/)
@@ -27,7 +28,7 @@ Custom domain on GitHub Pages:
 
     2. 如果是apex (沒有subdomain的, e.g. example.com)的, 在DNS provider那邊設定 aname/alias(這個就沒有講怎麼設定，只有說要去問DNS provider), 沒有提供aname設定, 則退而設定 a record(一定會有的).  細節教學: [https://help.github.com/articles/setting-up-an-apex-domain/](https://help.github.com/articles/setting-up-an-apex-domain/) (設定如下的兩筆的a record, 因為有兩個GitHub ip). `@ -> githubIP`
 
-    3. 如果subdomain的(www.example.com/aa.exaomple.com)，則是設定 cname record, e.g. ` www  -> username.github.io`
+    3. 如果subdomain的(www.example.com/aa.exaomple.com)，則是設定 cname record, e.g. `www  -> username.github.io`
 
 
  p.s.1. GitHub 是建議設定www.example.com 而不是example.com (apex type)，若真需要設定apex type，則建議同時也設定www.(即example.com & www.example.com同時work, 即上面的2.2 & 2.3都做)
