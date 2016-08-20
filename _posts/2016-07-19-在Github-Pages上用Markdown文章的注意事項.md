@@ -1,5 +1,5 @@
 ---
-title: '在GitHub Pages上用markdown文章的注意事項'
+title: '在GitHub Pages上撰寫Markdown文章的注意事項'
 
 tags:
 - Markdown
@@ -26,6 +26,7 @@ GitHub Page使用的Jekyll有所謂的[Front Matter](https://jekyllrb.com/docs/f
 1. 若要測試寫好的.md/.markdown檔，若要100%確定效果，可以
     1. 在本地端跑 Jekyll
     2. 用 [https://kramdown.herokuapp.com/](https://kramdown.herokuapp.com/) 或是 [http://trykramdown.herokuapp.com/](http://trykramdown.herokuapp.com/) 來測效果，此兩者皆是用Ruby寫的 kramdown.
+    3. 使用 Atom的 Package, [https://atom.io/packages/markdown-preview-kramdown](https://atom.io/packages/markdown-preview-kramdown)
 3. 換一個段落的方法
      1. 空一行
      2. 第一行結尾留兩個空白
@@ -37,9 +38,16 @@ GitHub Page使用的Jekyll有所謂的[Front Matter](https://jekyllrb.com/docs/f
 5. multiple line code block, 可使用四個空白 或是```(Fenced code blocks)的做法, 參考[https://help.github.com/articles/creating-and-highlighting-code-blocks/](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
 6. 語法高亮度的清單(不確定正確): [https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers), [https://github.com/github/linguist/blob/master/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml), 有人說別的Blog(e.g. [Hexo](https://hexo.io))所使用的Markdown沒有支持Github用的```jascript這種
+
 7. [https://kramdown.herokuapp.com/](https://kramdown.herokuapp.com/) 沒有支援ES6的語法高亮度.
 
 8. 在 code block or inline code 中打出 ` 符號的方法. [http://stackoverflow.com/questions/33224686/how-to-render-triple-backticks-as-inline-code-block-in-markdown](http://stackoverflow.com/questions/33224686/how-to-render-triple-backticks-as-inline-code-block-in-markdown), *So I've found that using 4 backticks as opening and closing deliminators does the trick:*
+
+## About Fenced code block
+1. [Syntax highlighting of GitHub Flavored Markdown ](https://help.github.com/articles/creating-and-highlighting-code-blocks/). It uses ```
+2. [Fenced code block of Kramdown](http://kramdown.gettalong.org/syntax.html#fenced-code-blocks). It uses ~~~.
+
+GitHub Pages and some/all markdown files on GitHub can accept these two types and show correctly. But this atom package only handles Kramdown type(~~~). Please keep in mind, and my opinion is to use ~~~. Also They both support non-fenced standard code block (4 indent) and single line code span.  
 
 ## List相關:
 1. list要視為新的段落，所以要空一行等動作.
