@@ -15,11 +15,11 @@ rest operator:`...`, 變成一個,  for destructuring arrays and objects
 ES6 rest parameters:
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-```javascript
+~~~ javascript
 function fun1(...theArgs) {
   console.log(theArgs.length);
 }
-```
+~~~
 ---
 Destructuring_assignment
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
