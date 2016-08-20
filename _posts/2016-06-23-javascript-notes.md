@@ -7,7 +7,7 @@ tags:
 ### Notes:
 
 1. everything is object, function also.
-2. scope (es5: function scope, es6: let->block scope)
+2. scope (ES5: function scope, ES6: let->block scope)
 3. this, call, apply -> closure
 4. 全域變數其實就是全域物件的屬性。瀏覽器：window物件、node.js：GLOBAL物件)
    例外：在使用node.js時，若使用node file.js這樣的方式執行js檔，並不會讓宣告的全域變數掛在全域物件上(意指會利用function將code整個包起來執行)，故輸出應為undefined。
@@ -31,7 +31,7 @@ JavaScript教學 - 變數(Variables)
 How do you check if a variable is an array in JavaScript?
 [http://stackoverflow.com/questions/767486/how-do-you-check-if-a-variable-is-an-array-in-javascript](http://stackoverflow.com/questions/767486/how-do-you-check-if-a-variable-is-an-array-in-javascript)
 
-How to check for “undefined” in JavaScript? [duplicate]
+How to check for “undefined” in JavaScript?
 [http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript](http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript)  
 if (aa.bb) ->bb is undefined , will not throw exceptions
 but  
@@ -40,7 +40,7 @@ if (aa) ->aa is undefined, will throw exceptions.
 JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 [http://www.w3schools.com/js/js_hoisting.asp](http://www.w3schools.com/js/js_hoisting.asp)
 
-[轉載]你所想像不到的 JavaScript  
+你所想像不到的 JavaScript:  
 [http://www.vixual.net/blog/archives/31](http://www.vixual.net/blog/archives/31)
 
 **strict mode**:
@@ -63,7 +63,7 @@ JavaScript 物件導向介紹
 2.
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
-物件(es5)的member function (method)宣告方式:
+物件(ES5)的member function (method)宣告方式:
 
 1. non static method: `Person.prototype.sayHello = function()`  
 2. in constructor:   
@@ -102,7 +102,7 @@ es5 singleton
 **JavaScript Scope**  
 [http://www.w3schools.com/js/js_scope.asp](http://www.w3schools.com/js/js_scope.asp)
 
-**scope, 變數範圍, 有提前講到 es6的let (block scope)**
+**scope, 變數範圍, 有提前講到 ES6的let (block scope)**
 [https://msdn.microsoft.com/zh-tw/library/bzt2dkta(v=vs.94).aspx](https://msdn.microsoft.com/zh-tw/library/bzt2dkta(v=vs.94).aspx)
 
 **this**  
@@ -141,18 +141,18 @@ this, JavaScript 的 `this` 是指什麼?
 2. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)  !!!!
 3. [http://dreamerslab.com/blog/tw/javascript-function-scopes-and-closures/](http://dreamerslab.com/blog/tw/javascript-function-scopes-and-closures/) !!
 4. [http://openhome.cc/Gossip/JavaScript/Closure.html](http://openhome.cc/Gossip/JavaScript/Closure.html)
-5. [http://ithelp.ithome.com.tw/articles/10131469](http://ithelp.ithome.com.tw/articles/10131469) **timer !!! 特殊的case2 !!! 可用es6的let解**
+5. [http://ithelp.ithome.com.tw/articles/10131469](http://ithelp.ithome.com.tw/articles/10131469) **timer !!! 特殊的case2 !!! 可用ES6的let解**
 6. [http://cythilya.blogspot.tw/2015/06/javascript-module-pattern.html](http://cythilya.blogspot.tw/2015/06/javascript-module-pattern.html)
 
---
+---
 
-### ES6
+### ES6 /ECMAScript 6/ ECMAScript 2015/
 
 
-es6, classes  
+ES6, classes  
 [http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/](http://www.codedata.com.tw/javascript/es6-4-maximally-minimal-classes/)
 
-es6, Arrow function  
+ES6, Arrow function  
 [https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ES6 Preview  
@@ -169,10 +169,10 @@ ES6 Preview
 * module loaders
 * promises
 
-es6 features
+ES6 features
 [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
 
-es6 簡化的member function寫法  
+ES6 簡化的member function寫法  
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions)
 
 ```
@@ -182,15 +182,16 @@ class MainPage extends React.Component {
   }
 }
 ```
+
 ---
 
 ### ES7
 
 
-es7 (draft)  
+ES7 (draft)  
 [http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators](http://stackoverflow.com/questions/32540181/should-i-put-a-semicolon-after-es7-decorators)
 
-es7, spreading operator:
+ES7, spreading operator:
 `c = {...a, ...b}`
 
 ---
@@ -216,9 +217,10 @@ function func2() {
 ```
 沒有call的話都沒值
 但如果有call func2
-則G有值!!!!!! ->會變成global object下面的property
+則G有值!!!!!! ->會變成global object下面的property2
 
 ---
+
 ### 其他
 
 **特殊 case :**  
