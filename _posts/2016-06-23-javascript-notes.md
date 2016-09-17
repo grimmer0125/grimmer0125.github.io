@@ -33,9 +33,9 @@ How do you check if a variable is an array in JavaScript?
 
 How to check for “undefined” in JavaScript?
 [http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript](http://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript)  
-if (aa.bb) ->bb is undefined , will not throw exceptions
+if (aa.bb) -> if bb is not declared yet , will not throw exceptions
 but  
-if (aa) ->aa is undefined, will throw exceptions.
+if (aa) -> if aa is not declared yet, will throw exceptions.
 
 JavaScript Hoisting, JavaScript Declarations are Hoisted, 先使用之後才var
 [http://www.w3schools.com/js/js_hoisting.asp](http://www.w3schools.com/js/js_hoisting.asp)
