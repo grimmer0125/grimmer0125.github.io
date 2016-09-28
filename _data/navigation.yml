@@ -1,10 +1,11 @@
 # main links links
 main:
-  - title: "GitHub"
-    url: https://github.com/grimmer0125
 
   - title: "Portfolio"
-    url: http://slides.com/teng-chiehkang/portfolio/fullscreen
-    
+      url: http://slides.com/teng-chiehkang/portfolio/fullscreen
+
   - title: "Tags"
     url: /tags/
+
+  - title: "GitHub"
+    url: https://github.com/grimmer0125
