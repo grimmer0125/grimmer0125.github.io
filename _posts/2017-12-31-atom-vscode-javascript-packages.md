@@ -1,5 +1,5 @@
 ---
-title: '在Atom及VS Code上面的JavaScript IDE 功能加強'
+title: '在Atom及VS Code上面安裝外掛增強 JavaScript IDE 開發功能'
 
 tags:
 - IDE
@@ -8,11 +8,11 @@ tags:
 - VS Code
 ---
 
-## symbol (function, global variable) list
+## symbol (function, global variable, etc.) list
 
 ### Atom - JavaScript
-- 需安裝 [nuclide](https://atom.io/packages/nuclide), toggle outline功能
-- 可裝不可裝 [ide-typescript](https://github.com/atom/ide-typescript), 強化nuclide, 對JS也有效
+- 需安裝 [nuclide](https://atom.io/packages/nuclide), 使用toggle outline功能即可
+- 可裝不可裝 [ide-typescript](https://github.com/atom/ide-typescript), 強化nuclide outline, 對JS也有效
 
 ### Atom - TypeScript
 需安裝以下兩個
@@ -20,7 +20,8 @@ tags:
 2. [ide-typescript](https://github.com/atom/ide-typescript) 把nuclide-outline加上 TypeScript support
 
 ### VS Code - TypeScript & JavaScript
-[vscode-code-outline](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)
+1. 內建: use cmd+shift+o to get symbol list.或是以下
+2. [vscode-code-outline](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)
 
 ## Refactor (Rename)
 
