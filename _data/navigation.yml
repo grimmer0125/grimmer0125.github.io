@@ -3,6 +3,9 @@ main:
   - title: "Portfolio"
     url: http://slides.com/teng-chiehkang/portfolio/fullscreen
 
+  - title: "New Blog (Beta)"
+    url: https://flamboyant-ptolemy-511122.netlify.com
+
   - title: "Tags"
     url: /tags/
 
