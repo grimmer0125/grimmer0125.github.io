@@ -64,9 +64,9 @@ function App() {
             </div>
             <div className="p-6">
               <p className="text-gray-600">
-                Creator of developer tools including a VSCode navigation extension and Chrome-based 
-                DICOM medical image viewer. Author of TypeScript libraries for task queues 
-                and numerical computing. Implemented AlphaGo Zero algorithm for Tic-tac-toe in JavaScript, 
+                Creator of developer tools including VS Code, Chrome extensions, and macOS utilities.
+                Author of TypeScript libraries for task queues and numerical computing. 
+                Implemented AlphaGo Zero algorithm for Tic-tac-toe in JavaScript, 
                 demonstrating advanced AI concepts in browser environments.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
