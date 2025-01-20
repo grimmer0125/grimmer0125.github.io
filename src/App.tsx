@@ -63,7 +63,8 @@ function App() {
             </div>
             <div className="p-6">
               <p className="text-gray-600">
-                Creator of developer tools including VS Code, Chrome extensions, and macOS utilities. 
+                Creator of developer tools including VS Code, Chrome extensions, macOS utilities, and 
+                an open-source pet healthcare tracking app (previously published on iOS/Android). 
                 Author of TypeScript libraries for task queues and numerical computing. 
                 Implemented AlphaGo Zero algorithm for tic-tac-toe in JavaScript, 
                 demonstrating advanced AI concepts in browser environments.
