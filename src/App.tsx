@@ -55,7 +55,7 @@ function App() {
                 className="w-full object-contain"
                 style={{ maxHeight: '500px' }}
               />
-              <div className="absolute bottom-0 left-0 right-0 p-4">
+              <div className="absolute -bottom-1.5 left-0 right-0 p-4">
                 <h3 className="text-xl font-bold text-white">
                   Developer Tools & Open Source
                 </h3>
