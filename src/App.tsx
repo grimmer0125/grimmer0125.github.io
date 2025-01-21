@@ -63,10 +63,10 @@ function App() {
             </div>
             <div className="p-6">
               <p className="text-gray-600">
-                Creator of developer tools including VS Code, Chrome extensions, macOS utilities, and 
-                an open-source pet healthcare tracking app (previously published on iOS/Android). 
-                Author of TypeScript libraries for task queues and numerical computing. 
-                Implemented AlphaGo Zero algorithm for tic-tac-toe in JavaScript, 
+                Creator of developer tools including VS Code, Chrome extensions, macOS utilities, and
+                an open-source pet healthcare tracking app (previously published on iOS/Android).
+                Author of TypeScript libraries for task queues and numerical computing.
+                Implemented AlphaGo Zero algorithm for tic-tac-toe in JavaScript,
                 demonstrating advanced AI concepts in browser environments.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
@@ -124,9 +124,15 @@ function App() {
             </div>
             <div className="p-6">
               <p className="text-gray-600">
-                Led development efforts for CARTA (Cube Analysis and Rendering Tool for Astronomy) at Academia Sinica, 
-                an open-source project collaborating with international teams to revitalize its development. 
-                Improved core performance and resolved critical issues through close collaboration with astronomers across Taiwan, US, and Canada.              </p>
+                Led development efforts for CARTA (Cube Analysis and Rendering Tool for Astronomy) at Academia Sinica,
+                an open-source project collaborating with international teams to revitalize its development.
+                Improved core performance and resolved critical issues through close collaboration with astronomers across Taiwan, US, and Canada.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm">C++</span>
+                <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm">JavaScript</span>
+                <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm">Python</span>
+              </div>
             </div>
           </div>
         </div>
