@@ -54,14 +54,14 @@ function App() {
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Featured Work</h2>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-12">
+
           {/* VS Code Card */}
-          <div className="bg-white rounded-lg shadow overflow-hidden">
+          <div className="bg-white rounded-lg shadow overflow-hidden flex flex-col">
             <div className="relative bg-gray-900">
               <img
                 src="assets/vscode-preview.png"
                 alt="VSCode Extension Preview"
-                className="w-full object-contain"
-                style={{ maxHeight: '500px' }}
+                className="w-full h-full object-contain"
               />
               <div className="absolute -bottom-1.5 left-0 right-0 p-4">
                 <h3 className="text-xl font-bold text-white">
@@ -69,7 +69,7 @@ function App() {
                 </h3>
               </div>
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow justify-between">
               <p className="text-gray-600">
                 Creator of developer tools including VS Code, Chrome extensions, macOS utilities, and
                 an open-source pet healthcare tracking app (previously published on iOS/Android).
@@ -86,7 +86,7 @@ function App() {
           </div>
 
           {/* Conference Speaking Card */}
-          <div className="bg-white rounded-lg shadow overflow-hidden">
+          <div className="bg-white rounded-lg shadow overflow-hidden flex flex-col">
             <div className="relative h-[451px] md:h-[451px] bg-gray-900">
               <img
                 src="assets/pycon-outline.png"
@@ -99,7 +99,7 @@ function App() {
                 </h3>
               </div>
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow justify-between">
               <p className="text-gray-600">
                 Speaker at PyCon APAC and COSCUP 2021, sharing expertise on Python in browsers for
                 medical imaging applications and TypeScript patterns for concurrent processing. Focused
@@ -116,7 +116,7 @@ function App() {
 
         {/* CARTA Section */}
         <div className="mt-12">
-          <div className="bg-white rounded-lg shadow overflow-hidden">
+          <div className="bg-white rounded-lg shadow overflow-hidden flex flex-col">
             <div className="relative bg-gray-900">
               <img
                 src="assets/carta-preview.png"
@@ -130,7 +130,7 @@ function App() {
                 </h3>
               </div>
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow justify-between">
               <p className="text-gray-600">
                 Led development efforts for CARTA (Cube Analysis and Rendering Tool for Astronomy) at Academia Sinica,
                 an open-source project collaborating with international teams to revitalize its development.
