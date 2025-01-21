@@ -6,22 +6,30 @@ function App() {
       {/* Hero Section */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Grimmer Kang</h1>
-            <p className="text-xl text-gray-600 mb-2">Tech Lead / Engineering Manager</p>
-            <p className="text-base text-gray-500 mb-8">Passionate about building impactful solutions for people</p>
-            <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Technology leader with physics background, progressing from mobile and full-stack development to
-              AI systems and scalable architectures. Currently leading distributed AI engineering teams at
-              Fireflies.ai. Previously contributed to CARTA, an international astronomy software project at Academia Sinica,
-              collaborating with US National Radio Astronomy Observatory and global partners. Extensive experience in IoT and streaming technologies. Proven track record in
-              building high-performance engineering teams and driving innovation through critical thinking and
-              agile methodologies.
-            </p>
+          <div className="flex flex-col md:flex-row items-center justify-between mb-8">
+            <div className="flex-1 text-center md:text-left mb-6 md:mb-0">
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Grimmer Kang</h1>
+              <p className="text-xl text-gray-600 mb-2">Tech Lead / Engineering Manager</p>
+              <p className="text-base text-gray-500 mb-8">Passionate about building impactful solutions for people</p>
+            </div>
+            <div className="flex-shrink-0 md:ml-8">
+              <img src="assets/profile.png" alt="Grimmer Kang"
+                className="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-lg object-cover"
+              />
+            </div>
           </div>
+          <p className="text-gray-600 max-w-2xl mx-auto md:mx-0 leading-relaxed">
+            Technology leader with physics background, progressing from mobile and full-stack development to
+            AI systems and scalable architectures. Currently leading distributed AI engineering teams at
+            Fireflies.ai. Previously contributed to CARTA, an international astronomy software project at Academia Sinica,
+            collaborating with US National Radio Astronomy Observatory and global partners. Extensive experience in IoT and streaming technologies. Proven track record in
+            building high-performance engineering teams and driving innovation through critical thinking and
+            agile methodologies.
+          </p>
+
 
           {/* Social Links */}
-          <div className="mt-8 flex justify-center space-x-6">
+          <div className="mt-8 flex justify-center md:justify-start space-x-6">
             <a href="https://github.com/grimmer0125"
               className="text-gray-600 hover:text-gray-900 flex items-center">
               <Github className="h-6 w-6" />
